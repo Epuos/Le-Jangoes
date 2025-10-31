@@ -6,6 +6,12 @@ import sys
 #cd ..
 # source myworld/bin/activate
 
+
+#git add .
+#git commit -m "jdfsbdfs"
+#git branch -M main    
+#git push -u origin main
+
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'my_tennis_club.settings')

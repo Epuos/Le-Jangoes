@@ -6,6 +6,9 @@
 
 
 {% block content %}
+  {% with firstname="Tobias" %}
+  <p>Hello {{firstname}}, how are you?</p>
+  {% endwith %}
   <h1>My Tennis Club</h1>
 
   <h3>Members</h3>
